@@ -627,6 +627,22 @@ footer {
 
 /* Media Queries */
 
+/* 1920 */
+
+@media only screen and (min-width: 1920px) {
+   
+/* Footer */
+
+    .connect { 
+        margin-left: 450px;
+    }
+
+    .copyright  {   
+        margin-left: 450px;
+    }
+}
+
+
 /* 1440 */
 
 @media only screen and (max-width: 1440px) {
@@ -907,7 +923,7 @@ footer {
     }
     
       .contact img {
-        padding-top: 120px;
+        padding-top: 110px;
     }
     
       .copyright  {
