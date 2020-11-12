@@ -1038,7 +1038,7 @@ footer {
     }
 
     .copyright  {
-        padding-left: 230px;
+        margin-left: -105px;
         padding-top: 35px;
     }
 }
