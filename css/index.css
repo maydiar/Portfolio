@@ -976,7 +976,7 @@ footer {
     }
 }
 
-/* 833 */
+/* 834 */
 
 @media only screen and (max-width: 834px) {
     
@@ -2154,7 +2154,7 @@ footer {
     }
     
     .copyright  {
-        padding-left: 135px;
+        padding-left: 30px;
         padding-top: 60px;
     }
 }
