@@ -71,7 +71,7 @@ header {
 .inline-block a {
     display: flex;
     text-decoration: none;
-    color: rosybrown;
+    color: #262626;
     font-family: 'arkhipregular' sans-serif;
     font-weight: lighter;
     text-decoration: none;
@@ -628,20 +628,6 @@ footer {
 /* Media Queries */
 
 /* 1920 */
-
-
-@media only screen and (min-width: 1920px) {
-   
-/* Footer */
-
-    .connect { 
-        margin-left: 450px;
-    }
-
-    .copyright  {   
-        margin-left: 450px;
-    }
-}
 
 
 /* 1440 */
