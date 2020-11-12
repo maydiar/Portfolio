@@ -629,7 +629,8 @@ footer {
 
 /* 1920 */
 
-@media only screen and (max-width: 1920px) {
+
+@media only screen and (min-width: 1920px) {
    
 /* Footer */
 
@@ -675,11 +676,9 @@ footer {
         margin-left: 0px;
     }
 
-        .about p {
-            margin-left: 590px;
-          }
-    }
-
+    .about p {
+        margin-left: 590px;
+        }
 
     /* Skills */
     .design {
@@ -697,6 +696,8 @@ footer {
         padding-left: 1080px;
         width: 310px;
     }
+}
+    
 
 /* 1366 */
 
@@ -756,6 +757,8 @@ footer {
         padding-left: 930px;
         width: 310px;
         }   
+
+}
 
 /* 1024*/
 
@@ -988,13 +991,12 @@ footer {
         padding-left: 340px;
         padding-top: 75px;
     }
-
+}
 
 /* 833 */
 
 @media only screen and (max-width: 833px) {
     
-/* Header */
     
     .inline-block {
         padding-left: 243px;
@@ -1014,7 +1016,14 @@ footer {
         margin-left: 240px;
     }
 
-    /* Footer */
+/* Hero */    
+    
+    .hero {
+        background-position-y: 240px;
+        height: 770px;
+    } 
+
+/* Footer */
 
     .footerLogo {
         padding-left: 210px;
@@ -1038,7 +1047,7 @@ footer {
     }
 
     .copyright  {
-        margin-left: -105px;
+        padding-left: 230px;
         padding-top: 35px;
     }
 }
@@ -1083,6 +1092,7 @@ footer {
         margin-top: -50px;
         margin-left: 123px;
       }
+    
 
 /* About */      
     
@@ -1936,7 +1946,7 @@ footer {
     }
     
     .copyright  {
-        padding-left: 28px;
+        padding-left: 135px;
         padding-top: 60px;
     }
 }
