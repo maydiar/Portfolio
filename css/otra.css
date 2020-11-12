@@ -951,32 +951,57 @@ footer {
 /* Ballot Bites */
        
     .bbCard {
-       height: 275px;
+       height: 325px;
        margin-right: 0px;
+       margin-top: 0px;
     }
        
     .bbcard-img-top {
        width: 35%;
+       margin-top: -50px;
     }
        
     .bb-card-title {
         font-size: 23px;
-        margin-top: -15px;
+        margin-top: 0px;
     }
        
 /* Bert's Big Adventure */
        
     .bbeCard {
-        height: 275px;
+        height: 325px;
         margin-left: 0px;
+        margin-top: 0px;
     }
+
+    .bbecard-img-top {
+        margin-top: -48px;
+     }
        
     .bbe-card-title {
         font-size: 23px;
         margin-top: 30px;
     }
 
+/* Ballot Bites */
        
+    .bbCard {
+        height: 325px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+        
+    .bbcard-img-top {
+        width: 35%;
+        margin-top: -50px;
+    }
+        
+    .bb-card-title {
+        font-size: 23px;
+        margin-top: 0px;
+    }
+       
+    
 /* Images */
        
     .img-fluid {

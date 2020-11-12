@@ -1066,30 +1066,37 @@ footer {
 /* Bert's Big Adventure */
        
     .bbeCard {
-        height: 275px;
+        height: 325px;
         margin-left: 0px;
+        margin-top: 0px;
     }
+
+    .bbecard-img-top {
+        margin-top: -48px;
+     }
        
     .bbe-card-title {
         font-size: 23px;
-        margin-top: 30px;
+        margin-top: 35px;
     }
 
 /* On The Road Again */
        
 .otraCard {
-    height: 275px;
+    height: 325px;
     margin-right: 0px;
- }
+    margin-top: 0px;
+}
     
- .otracard-img-top {
+.otracard-img-top {
     width: 35%;
- }
+    margin-top: -50px;
+}
     
- .otra-card-title {
-     font-size: 23px;
-     margin-top: -15px;
- }    
+.otra-card-title {
+    font-size: 23px;
+    margin-top: 0px;
+}   
        
 /* Images */
        

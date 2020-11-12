@@ -1036,17 +1036,19 @@ footer {
 /* Ballot Bites */
        
     .bbCard {
-       height: 275px;
-       margin-right: -15px;
+        height: 325px;
+        margin-right: 0px;
+        margin-top: 0px;
     }
-       
+        
     .bbcard-img-top {
-       width: 35%;
+        width: 35%;
+        margin-top: -50px;
     }
-       
+        
     .bb-card-title {
         font-size: 23px;
-        margin-top: -15px;
+        margin-top: 0px;
     }
        
 /* Bert's Big Adventure */
@@ -1064,19 +1066,20 @@ footer {
 /* On The Road Again */
        
 .otraCard {
-    height: 275px;
+    height: 325px;
     margin-right: -15px;
-    margin-left: 15px;
- }
+    margin-top: 0px;
+}
     
- .otracard-img-top {
+.otracard-img-top {
     width: 35%;
- }
+    margin-top: -50px;
+}
     
- .otra-card-title {
-     font-size: 23px;
-     margin-top: -15px;
- }    
+.otra-card-title {
+    font-size: 23px;
+    margin-top: 0px;
+}   
        
 /* Images */
        
