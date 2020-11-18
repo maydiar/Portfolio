@@ -313,7 +313,7 @@ h2 {
     letter-spacing: 0.5px;
     color: #205D76;
     text-align: center;
-    margin-top: 63px;
+    margin-top: 95px;
     margin-bottom: 15px;
 }
 
@@ -552,6 +552,137 @@ footer {
 }
 
 /* Media Queries */
+
+/* 2480 */
+
+@media only screen and (max-width: 2480px) {
+
+    /* Ballot Bites */
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+/* Bert's Big Adventure */
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+
+    /* Footer */
+
+footer {
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing:content-box;
+    background-color: #4E313F; 
+    height: 350px;
+    background-size: cover;
+    width: 100%;
+    position: static;
+    margin: 0;
+}
+
+.footerLogo {
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing:content-box;
+    padding-left: 55px;
+    padding-top: 95px;
+    padding-right: 0;
+    float: left;
+}
+
+.footerLogo img {
+    height: 140px;
+}
+
+.connect {
+    box-sizing: content-box;
+    display: inline-block;
+    font-family: 'axiformamedium';
+    text-align: center;
+    color: #dddddd;
+    vertical-align: middle;
+    padding-top: 111px;
+    padding-left: 1650px;
+    padding-right: 25px;  
+    float: left;  
+  }
+
+  .contact img {
+    box-sizing: content-box;
+    height: 25px;
+    padding-top: 125px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+  .copyright  {
+    box-sizing:content-box;
+    color: #DDDDDD;
+    font-family: 'axiformabook';
+    font-size: 11px;
+    padding-left: 2125px;
+    margin-top: 15px;
+    width: 310px;
+    text-align: right;
+}
+}
 
 /* 1920 */
 
@@ -1105,6 +1236,103 @@ footer {
         margin-bottom: 15px;
     }
 
+        /* Ballot Bites */
+    
+        .bbCard {
+            background-color: rgba(156, 199, 177, 0.1);
+            height: 0px;
+            margin-top: 50px;
+            margin-left: -15px;
+            padding-bottom: 50px;
+            padding-left: 0;
+        }
+        
+        .bbcard-img-top {
+            width: 35%;
+            margin-top: -100px;
+        }
+        
+        .bb-card-title {
+            font-family: 'axiformabold', sans-serif;
+            font-weight: lighter;
+            font-size: 25px;
+            letter-spacing: 0.5px;
+            color: #9CC7B1;
+            text-align: center;
+            margin-top: -25px;
+            margin-bottom: 15px;
+        }
+        
+        .bbBtn {
+            background-color: #9cc7b1;
+            color: white;
+            border: none;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+            font-family: 'axiformabook', sans-serif;
+            font-weight: normal;
+            font-size: 10px;
+            padding: 10px;
+            width: 165px;
+            transition-duration: 0.7s;
+            grid-area: 'description';
+        }
+        
+        .bbBtn:hover {
+            background-color: #85AD99;
+            cursor: pointer; 
+            transition-duration: 0.7s;
+        }
+        
+        /* Bert's Big Adventure */
+        
+        .bbeCard {
+            background-color: rgba(32, 93, 118, 0.1);
+            height: 600px;
+            margin-top: 50px;
+            padding-bottom: 50px;
+            margin-right: -15px;
+        }
+        
+        .bbecard-img-top {
+            width: 80%;
+            margin-top: -95px;
+        }
+        
+        .bbe-card-title {
+            font-family: 'axiformabold', sans-serif;
+            font-weight: lighter;
+            font-size: 25px;
+            letter-spacing: 0.5px;
+            color: #205D76;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 15px;
+        }
+        
+        .bbeBtn {
+            background-color: #205D76;
+            color: white;
+            border: none;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+            font-family: 'axiformabook', sans-serif;
+            font-weight: normal;
+            font-size: 10px;
+            padding: 10px;
+            width: 165px;
+            transition-duration: 0.7s;
+            grid-area: 'description';
+        }
+        
+        .bbeBtn:hover {
+            background-color: #154253;
+            cursor: pointer; 
+            transition-duration: 0.7s;
+        }
+
     /* Footer */
     
     .connect {
@@ -1150,6 +1378,72 @@ footer {
             margin-left: 140px;
             margin-bottom: 15px;
         }
+
+        /* Ballot Bites */
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+/* Bert's Big Adventure */
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 550px;
+    margin-top: 33px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 15px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 550px;
+    margin-top: 33px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
 
     /* Footer */
         
@@ -1226,29 +1520,69 @@ height: 770px;
 
 /* Ballot Bites */
 
-    .otraCard {
-        height: 475px;
-    }
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
 
-    .otracard-img-top {
-        width: 35%;
-    }
-
-    .otra-card-title {
-        font-size: 23px;
-        margin-top: -15px;
-    }
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
 
 /* Bert's Big Adventure */
 
-    .bbeCard {
-        height: 475px;
-    }
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 450px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
 
-    .bbe-card-title {
-        font-size: 23px;
-        margin-top: 50px;
-    }
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 450px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
 
 /* Images */
 
@@ -1307,6 +1641,72 @@ height: 770px;
     margin-bottom: 15px;
 }
 
+
+/* Ballot Bites */
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+/* Bert's Big Adventure */
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 435px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 435px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
 /* Footer */
     
 .connect {
@@ -1350,6 +1750,71 @@ height: 770px;
     font-size: 12px;
     margin-top: -5px;
     margin-left: 150px;
+    margin-bottom: 15px;
+}
+
+/* Ballot Bites */
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+/* Bert's Big Adventure */
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 400px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 400px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: -25px;
     margin-bottom: 15px;
 }
 
@@ -1404,6 +1869,75 @@ height: 770px;
         margin-left: 130px;
         margin-bottom: 15px;
     }
+
+/* Ballot Bites */
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+/* Bert's Big Adventure */
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 350px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 350px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+.centerHeader {
+    margin-left: -30px;
+}
 
     /* Footer */
             
@@ -1496,31 +2030,71 @@ height: 770px;
    
    
 /* Ballot Bites */
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+/* Bert's Big Adventure */
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 350px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 350px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
    
-    .otraCard {
-       height: 350px;
-   }
-   
-   .otracard-img-top {
-       width: 35%;
-   }
-   
-    .otra-card-title {
-        font-size: 23px;
-       margin-top: -15px;
-   }
-   
-   /* Bert's Big Adventure */
-   
-    .bbeCard {
-        height: 350px;
-    }
-   
-    .bbe-card-title {
-        font-size: 23px;
-       margin-top: 30px;
-   }
-   
+
 /* Images */
    
     .img-fluid {
@@ -1606,6 +2180,74 @@ height: 770px;
         margin-bottom: 15px;
     }
 
+/* Ballot Bites */
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+/* Bert's Big Adventure */
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 300px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 13px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 300px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.centerHeader {
+    margin-left: -30px;
+}
     /* Footer */
 
     .footerLogo {
@@ -1626,7 +2268,7 @@ height: 770px;
     }
 
     .contact img {
-        padding-top: 35px;
+        padding-top: 25px;
     }
 
     .copyright  {
@@ -1707,6 +2349,103 @@ height: 770px;
         margin-left: -20px;
 
     }
+
+    /* Ballot Bites */
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+/* Bert's Big Adventure */
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 300px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 13px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 300px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.centerHeader {
+    margin-left: -30px;
+}
+
+/* Footer */
+
+    .footerLogo {
+        padding-left: 210px;
+        padding-top: 35px;
+        padding-right: 0;
+        float: none;
+    }
+
+    .footerLogo img {
+        height: 100px;
+    }
+
+    .connect {
+        padding-top: 25px;
+        margin-left: 165px;
+        padding-left: 80px;
+    }
+
+    .contact img {
+        padding-top: 35px;
+    }
+
+    .copyright  {
+        padding-left: 230px;
+        padding-top: 35px;
+    }
 }
 
 /* 812 */
@@ -1759,7 +2498,7 @@ height: 770px;
     }
 
     .connect {
-        padding-top: 10px;
+        padding-top: 25px;
         margin-left: 165px;
         padding-left: 80px;
     }
@@ -1792,6 +2531,75 @@ height: 770px;
 
     }
 
+/* Ballot Bites */
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+/* Bert's Big Adventure */
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 275px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 13px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 275px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.centerHeader {
+    margin-left: -30px;
+}
+
 /* Footer */
 
     .footerLogo {
@@ -1806,7 +2614,7 @@ height: 770px;
     }
 
     .connect {
-        padding-top: 10px;
+        padding-top: 25px;
         margin-left: 165px;
         padding-left: 80px;
     }
@@ -1890,57 +2698,73 @@ height: 770px;
        
        
 /* Ballot Bites */
-       
-    .otraCard {
-       height: 325px;
-       margin-right: 0px;
-       margin-top: 0px;
-    }
-       
-    .otracard-img-top {
-       width: 35%;
-       margin-top: -50px;
-    }
-       
-    .otra-card-title {
-        font-size: 23px;
-        margin-top: 0px;
-    }
-       
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
 /* Bert's Big Adventure */
-       
-    .bbeCard {
-        height: 325px;
-        margin-left: 0px;
-        margin-top: 0px;
-    }
 
-    .bbecard-img-top {
-        margin-top: -48px;
-     }
-       
-    .bbe-card-title {
-        font-size: 23px;
-        margin-top: 30px;
-    }
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 275px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
 
-/* Ballot Bites */
-       
-    .bbCard {
-        height: 325px;
-        margin-right: 0px;
-        margin-top: 0px;
-    }
-        
-    .bbcard-img-top {
-        width: 35%;
-        margin-top: -50px;
-    }
-        
-    .bb-card-title {
-        font-size: 23px;
-        margin-top: 0px;
-    }
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 13px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 275px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.centerHeader {
+    margin-left: -30px;
+}
        
     
 /* Images */
@@ -1983,7 +2807,7 @@ footer {
 }
 
 .connect {
-    padding-top: 10px;
+    padding-top: 12px;
     margin-left: 165px;
     padding-left: 50px;
 }
@@ -2046,7 +2870,7 @@ footer {
 /* Bert's Big Adventure */
    
     .bbeCard {
-        height: 490px;
+        height: 445px;
         margin-left: -15px;
     }
     
@@ -2077,7 +2901,7 @@ footer {
     }
 
     .connect {
-        padding-top: 10px;
+        padding-top: 25px;
         margin-left: 165px;
         padding-left: 50px;
     }
@@ -2136,7 +2960,74 @@ footer {
         margin-left: 20px;
     }
 
- 
+ /* Ballot Bites */
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+/* Bert's Big Adventure */
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 410px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 13px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 425px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.centerHeader {
+    margin-left: -30px;
+}
 
 /* Footer */
     
@@ -2160,7 +3051,7 @@ footer {
     }
     
     .connect {
-        padding-top: 10px;
+        padding-top: 25px;
         margin-left: 120px;
         padding-left: 50px;
     }
@@ -2253,19 +3144,19 @@ footer {
    
 /* Ballot Bites */
    
-    .bbCard {
+    .otraCard {
     height: 375px;
     margin-right: -15px;
     margin-bottom: 50px;
     margin-top: 50px;
     }
     
-    .bbcard-img-top {
+    .otracard-img-top {
     width: 30%;
     margin-top: -50px;
     }
     
-    .bb-card-title {
+    .otra-card-title {
         font-size: 23px;
         margin-top: -15px;
     }
@@ -2273,7 +3164,7 @@ footer {
 /* Bert's Big Adventure */
    
     .bbeCard {
-        height: 420px;
+        height: 370px;
         margin-left: -15px;
     }
     
@@ -2328,7 +3219,7 @@ footer {
 }
 
 .connect {
-    padding-top: 10px;
+    padding-top: 15px;
     margin-left: 85px;
     padding-left: 50px;
 }
@@ -2393,7 +3284,7 @@ footer {
 }
 
 .connect {
-    padding-top: 10px;
+    padding-top: 25px;
     margin-left: 85px;
     padding-left: 50px;
 }
@@ -2481,34 +3372,73 @@ footer {
     }
        
 /* Ballot Bites */
-       
-    .bbCard {
-       height: 275px;
-       margin-right: -15px;
-       margin-bottom: 50px;
-    }
-       
-    .bbcard-img-top {
-       width: 30%;
-       margin-top: -50px;
-    }
-       
-    .bb-card-title {
-        font-size: 23px;
-        margin-top: -15px;
-    }
-       
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
 /* Bert's Big Adventure */
-       
-    .bbeCard {
-        height: 320px;
-        margin-left: -15px;
-    }
-       
-    .bbe-card-title {
-        font-size: 23px;
-        margin-top: 30px;
-    }
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 280px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 13px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 300px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.centerHeader {
+    margin-left: 0px;
+}
     
 /* Images */
        
@@ -2603,6 +3533,76 @@ footer {
         margin-bottom: 15px;
     }
 
+/* Ballot Bites */
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+/* Bert's Big Adventure */
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 260px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 13px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 275px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.centerHeader {
+    margin-left: 0px;
+}
+
+
     /* Footer */
 
 footer {
@@ -2625,7 +3625,7 @@ footer {
 }
 
 .connect {
-    padding-top: 10px;
+    padding-top: 25px;
     margin-left: 0px;
     padding-left: 25px;
 }
@@ -2667,6 +3667,75 @@ footer {
 .hero {
     background-position-y: 70px;
     height: 255px;
+}
+
+/* Ballot Bites */
+
+.bbCard {
+    background-color: rgba(156, 199, 177, 0.1);
+    height: 800px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.bb-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #9CC7B1;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+
+/* Bert's Big Adventure */
+
+.bbeCard {
+    background-color: rgba(32, 93, 118, 0.1);
+    height: 280px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+}
+
+.bbe-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #205D76;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 13px;
+}
+
+/* On The Road Again */
+
+.otraCard {
+    background-color: rgba(246, 106, 29, 0.1);
+    height: 265px;
+    margin-top: 50px;
+    margin-left: -15px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+.otra-card-title {
+    font-family: 'axiformabold', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #F36A1D;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.centerHeader {
+    margin-left: 0px;
 }
 
 /* Footer */

@@ -654,6 +654,8 @@ footer {
 
 @media only screen and (max-width: 2480px) {
 
+    
+
     /* Footer */
 
 footer {
@@ -698,7 +700,7 @@ footer {
   .contact img {
     box-sizing: content-box;
     height: 25px;
-    padding-top: 125px;
+    padding-top: 135px;
     padding-bottom: 25px;
     padding-right: 25px;
 }
@@ -987,6 +989,7 @@ button:focus {
 
 .ballot {
     margin-top: 100px;
+    height: 550px;
     background-color: rgba(156, 199, 177, 0.1)
 }
 
@@ -1063,6 +1066,7 @@ button:focus {
 
 .otra {
     margin-top: 100px;
+    height: 550px;
     background-color: rgba(246, 106, 29, 0.1)
 }
 
@@ -1140,6 +1144,7 @@ button:focus {
 
 .bbe {
     margin-top: 105px;
+    height: 500px;
     background-color: rgba(32, 93, 118, 0.1)
 }
 
@@ -1350,9 +1355,21 @@ footer {
     }
     
 /* Work */
+
+    .ballot {
+        height: 450px;
+    }
+
+    .otra {
+        height: 450px;
+    }
+
+    .bbe {
+        height: 450px;
+    }
     
     .bbText {
-        margin-top: 90px;
+        margin-top: 100px;
     }
     
     .bbText p {
@@ -1360,14 +1377,14 @@ footer {
     }
     
     .otraText {
-        margin-top: 110px;
+        margin-top: 120px;
     }
     .otraText p {
         margin-right: 0px;
     }
     
     .bbeText {
-        margin-top: 105px;
+        margin-top: 115px;
     }
     .bbeText p {
         margin-right: 100px;
@@ -1672,9 +1689,39 @@ footer {
     
 /* Work */
 
-    .bbeText p {
-        margin-right: 30px;
-    }  
+.ballot {
+    height: 400px;
+}
+
+.otra {
+    height: 400px;
+}
+
+.bbe {
+    height: 400px;
+}
+
+.bbText {
+    margin-top: 70px;
+}
+
+.bbText p {
+    margin-right: 250px;
+}
+
+.otraText {
+    margin-top: 70px;
+}
+.otraText p {
+    margin-right: 0px;
+}
+
+.bbeText {
+    margin-top: 70px;
+}
+.bbeText p {
+    margin-right: 30px;
+} 
 
 /* Footer */
             
@@ -1745,7 +1792,19 @@ footer {
         font-size: 13px;
     } 
 
-/* Work */
+/* Work */    
+
+    .ballot {
+        height: 425px;
+    }
+
+    .otra {
+        height: 425px;
+    }
+
+    .bbe {
+        height: 425px;
+    }
 
     .bbPreview  {
         margin-top: -75px;
@@ -2034,8 +2093,10 @@ footer {
     
     /* Work */ 
     
+
+    
        .bbText {
-           margin-top: 25px;
+           margin-top: 50px;
         }
 
         .bbText h2 {
@@ -2061,7 +2122,7 @@ footer {
         }
 
         .otraText {
-            margin-top: 20px;
+            margin-top: 50px;
         }
     
         .otraText h2 {
@@ -2087,7 +2148,7 @@ footer {
         }
         
         .bbeText {
-            margin-top: 20px;
+            margin-top: -50px;
         }
         .bbeText h2 {
             margin-left: -50px;
@@ -2250,6 +2311,19 @@ footer {
         "preview"
         ;
     }
+
+    .ballot {
+        height: 600px;
+    }
+    
+    .otra {
+        height: 420px;
+    }
+    
+    .bbe {
+        height: 510px;
+    }
+    
 
     .bbPreview  {
         text-align: center;
@@ -3084,6 +3158,18 @@ footer {
         "preview"
         ;
     }
+    
+    .ballot {
+        height: 600px;
+    }
+    
+    .otra {
+        height: 400px;
+    }
+    
+    .bbe {
+        height: 510px;
+    }
 
     .bbPreview  {
         text-align: center;
@@ -3366,6 +3452,18 @@ footer {
         "description"
         "preview"
         ;
+    }
+
+    .ballot {
+        height: 575px;
+    }
+    
+    .otra {
+        height: 390px;
+    }
+    
+    .bbe {
+        height: 500px;
     }
     
     .bbPreview  {
@@ -3661,6 +3759,18 @@ footer {
         "preview"
         ;
     }
+
+    .ballot {
+        height: 575px;
+    }
+    
+    .otra {
+        height: 380px;
+    }
+    
+    .bbe {
+        height: 500px;
+    }
     
     .bbPreview  {
         text-align: center;
@@ -3953,6 +4063,18 @@ footer {
         "description"
         "preview"
         ;
+    }
+
+    .ballot {
+        height: 550px;
+    }
+    
+    .otra {
+        height: 320px;
+    }
+    
+    .bbe {
+        height: 480px;
     }
     
     .bbPreview  {
@@ -4251,6 +4373,18 @@ footer {
         "description"
         "preview"
         ;
+    }
+
+    .ballot {
+        height: 500px;
+    }
+    
+    .otra {
+        height: 355px;
+    }
+    
+    .bbe {
+        height: 465px;
     }
     
     .bbPreview  {
@@ -4854,6 +4988,18 @@ footer {
         ;
     }
     
+    .ballot {
+        height: 500px;
+    }
+    
+    .otra {
+        height: 285px;
+    }
+    
+    .bbe {
+        height: 465px;
+    }
+    
     .bbPreview  {
         text-align: center;
         grid-area: 'preview';
@@ -5023,7 +5169,7 @@ footer {
     }
     
     .copyright  {
-        padding-left: 0px;
+        padding-left: 35px;
         padding-top: 35px;
     }
 }
@@ -5157,6 +5303,18 @@ footer {
         "description"
         "preview"
         ;
+    }
+
+    .ballot {
+        height: 470px;
+    }
+    
+    .otra {
+        height: 255px;
+    }
+    
+    .bbe {
+        height: 485px;
     }
     
     .bbPreview  {
@@ -5463,6 +5621,18 @@ footer {
         "description"
         "preview"
         ;
+    }
+
+    .ballot {
+        height: 470px;
+    }
+    
+    .otra {
+        height: 215px;
+    }
+    
+    .bbe {
+        height: 485px;
     }
     
     .bbPreview  {
