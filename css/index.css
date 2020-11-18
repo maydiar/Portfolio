@@ -618,7 +618,7 @@ footer {
     font-family: 'axiformabook';
     font-size: 11px;
     padding-left: 2180px;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 310px;
     text-align: right;
 }
@@ -649,6 +649,71 @@ footer {
 
 
 /* Media Queries */
+
+/* 2480 */
+
+@media only screen and (max-width: 2480px) {
+
+    /* Footer */
+
+footer {
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing:content-box;
+    background-color: #4E313F; 
+    height: 350px;
+    background-size: cover;
+    width: 100%;
+    position: static;
+    margin: 0;
+}
+
+.footerLogo {
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing:content-box;
+    padding-left: 55px;
+    padding-top: 95px;
+    padding-right: 0;
+    float: left;
+}
+
+.footerLogo img {
+    height: 140px;
+}
+
+.connect {
+    box-sizing: content-box;
+    display: inline-block;
+    font-family: 'axiformamedium';
+    text-align: center;
+    color: #dddddd;
+    vertical-align: middle;
+    padding-top: 111px;
+    padding-left: 1650px;
+    padding-right: 25px;  
+    float: left;  
+  }
+
+  .contact img {
+    box-sizing: content-box;
+    height: 25px;
+    padding-top: 125px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+  .copyright  {
+    box-sizing:content-box;
+    color: #DDDDDD;
+    font-family: 'axiformabook';
+    font-size: 11px;
+    padding-left: 2125px;
+    margin-top: 15px;
+    width: 310px;
+    text-align: right;
+}
+}
 
 /* 1920 */
 
